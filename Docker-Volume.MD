@@ -76,7 +76,7 @@ docker run --rm -it -v my-data-volume:/app/data alpine sh
 
 1. Create a volume:
 ```
-docker volume create my_volume
+docker volume create data
 ```
 2. Run the first container with the volume mounted to the host directory
 
